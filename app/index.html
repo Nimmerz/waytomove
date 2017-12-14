@@ -182,7 +182,7 @@
                 <li class="active clients__row--item">
                     <img src="img/video-object.png" alt="video">
                     <h3 class="clients__row--item-header">video explayners</h3>
-                    <a href="#tab1" class="active clients__row--item-link">
+                    <a id="scroll-first" href="#tab1" class="active clients__row--item-link">
                         learn more
                     </a>
                 </li>
@@ -414,8 +414,6 @@
 </section>
 
 
-
-
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
@@ -451,17 +449,16 @@
     });
 
 
-    $('.clients__row--item-link').click(function(e) {
-        $('.critique-container').css("display","flex");
+    $('.clients__row--item-link').click(function (e) {
+        $('.critique-container').css("display", "flex");
         e.preventDefault();
     });
 
 
-    $('.close_relative--button').click(function(e) {
-        $('.critique-container').css("display","none");
+    $('.close_relative--button').click(function (e) {
+        $('.critique-container').css("display", "none");
         e.preventDefault();
     });
-
 
 
     var round = document.getElementById('mainBottom'),
@@ -484,6 +481,10 @@
     };
 
 
+    $("#scroll-first").click(function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
+    });
 
 </script>
 </body>
