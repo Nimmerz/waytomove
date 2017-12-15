@@ -1,14 +1,86 @@
 @import "vars";
 
 @media only screen and (max-width : 1200px) {
+	.main-content__upwork--link {
+		max-height: 50px;
+	}
+
+	.critique-container_block {
+		align-items: center;
+		text-align: center;
+	}
+
+	.clients__row--item {
+		margin-bottom: 70px;
+	}
+
+	.clients {
+		margin-bottom: 0;
+	}
 
 }
 
 @media only screen and (max-width : 992px) {
+	.main-content__upwork {
+		flex-direction: column;
+	}
+	.main-content__upwork--link {
+		max-width: 271px;
+		text-align: center;
+		margin: 15px auto;
+	}
+
+	.main-content__head {
+		font-size: 60px;
+	}
+
 
 }
 
 @media only screen and (max-width : 768px) {
+	.main-content__inline {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.main-content__head {
+		text-align: center;
+	}
+	.main-content__paragraph {
+		text-align: center;
+	}
+
+	.main-content__upwork--text {
+		text-align: center;
+	}
+
+	.main-content__upwork {
+		margin-top: 15px;
+	}
+
+	.main-content__head-sec {
+		text-align: center;
+	}
+
+	.main-content__padding {
+		padding-right: 0;
+	}
+
+	.main-content__padding-sec {
+		border-left: 0;
+		padding-left: 0;
+	}
+
+	.main-content__img-list {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.main-content__inline {
+		padding-bottom: 10px;
+	}
+
 
 }
 
