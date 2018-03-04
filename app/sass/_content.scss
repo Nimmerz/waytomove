@@ -149,7 +149,7 @@ ________________________________________________________________________________
 			margin-top: 0;
 			visibility: hidden;
 			opacity: 0;
-			transition: visibility 0s, opacity 0.5s linear;
+			transition: all 0.3s linear;
 			position: absolute;
 			top: 260px;
 			z-index: 100;
@@ -202,6 +202,9 @@ ________________________________________________________________________________
 	&_img {
 		max-width: 60px;
 		max-height: 60px;
+		width: 60px;
+		position: relative;
+		z-index: 2;
 	}
 	h3 {
 		color: $black;
@@ -316,7 +319,7 @@ ________________________________________________________________________________
 	left: 5%;
 	top: 31%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -326,7 +329,99 @@ ________________________________________________________________________________
 	left: 5%;
 	top: 37%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-third-html {
+	left: 38%;
+	top: 32%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-fourth-html {
+	left: 53%;
+	top: 35%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+
+.round.active-fifth-html {
+	left: 72%;
+	top: 37%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-sixth-html {
+	left: 87.7%;
+	top: 31%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-third-web {
+	left: 36.5%;
+	top: 36%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+
+.round.active-fourth-web {
+	left: 55%;
+	top: 38%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-fifth-web {
+	left: 70.7%;
+	top: 32%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-sixth-web {
+	left: 84.7%;
+	top: 31%;
+	bottom: 0;
+	z-index: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	visibility: visible;
+}
+
+.round.active-sixth-des {
+	left: 84.7%;
+	top: 30%;
+	bottom: 0;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -336,7 +431,7 @@ ________________________________________________________________________________
 	left: 19.7%;
 	top: 32%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -346,7 +441,7 @@ ________________________________________________________________________________
 	left: 37.7%;
 	top: 36%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -356,7 +451,7 @@ ________________________________________________________________________________
 	left: 54.7%;
 	top: 31%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -366,7 +461,7 @@ ________________________________________________________________________________
 	left: 69.7%;
 	top: 31%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -376,7 +471,7 @@ ________________________________________________________________________________
 	left: 87.7%;
 	top: 31%;
 	bottom: 0;
-	z-index: 9999;
+	z-index: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
 	visibility: visible;
@@ -409,4 +504,8 @@ ________________________________________________________________________________
 	width .3s ease;
 }
 
+
+.margin-critique {
+	margin-top: 10px;
+}
 
