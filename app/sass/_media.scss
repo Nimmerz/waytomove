@@ -557,11 +557,11 @@
 @media only screen and (max-width: 400px) {
 	.round.active {
 		left: 49%;
-		top: 16.5%;
+		top: 12.5%;
 	}
 	.round.active-sec {
 		left: 44%;
-		top: 29.4%;
+		top: 26.4%;
 	}
 	.round.active-third {
 		left: 25%;
@@ -569,7 +569,7 @@
 	}
 	.round.active-fourth {
 		left: 49%;
-		top: 53%;
+		top: 52.5%;
 	}
 	.round.active-fifth {
 		top: 66%;
@@ -583,12 +583,12 @@
 
 	.round.active-third-html {
 		left: 49%;
-		top: 42%;
+		top: 40%;
 	}
 
 	.round.active-fourth-html {
 		left: 44%;
-		top: 56%;
+		top: 55%;
 	}
 
 }
@@ -596,7 +596,7 @@
 @media (max-width: 399px) {
 	.round.active-third {
 		left: 50%;
-		top: 43.8%;
+		top: 40.8%;
 	}
 	.round.active-fifth {
 		top: 67%;
@@ -610,7 +610,7 @@
 
 	.round.active-html {
 		left: 49%;
-		top: 18%;
+		top: 14%;
 	}
 
 	.round.active-fifth-html {
@@ -620,17 +620,17 @@
 
 	.round.active-sixth-html {
 		left: 48.7%;
-		top: 82%;
+		top: 83%;
 	}
 
 	.round.active-third-web {
 		left: 44%;
-		top: 43%;
+		top: 41%;
 	}
 
 	.round.active-fourth-web {
 		left: 50%;
-		top: 57%;
+		top: 56%;
 	}
 
 	.round.active-fifth-web {
@@ -640,8 +640,8 @@
 
 
 	.round.active-sixth-web {
-		left: 35.7%;
-		top: 80%;
+		left: 38.7%;
+		top: 81%;
 	}
 
 	.round.active-sixth-des {
@@ -649,23 +649,27 @@
 		top: 82%;
 	}
 
+	.critique-container_block {
+		margin-bottom: 6rem;
+	}
+
 }
 
 @media only screen and (max-width: 366px) {
 	.round.active {
 		left: 49%;
-		top: 19.5%;
+		top: 15.5%;
 	}
 	.round.active-sec {
-		top: 31.6%;
+		top: 27.6%;
 		left: 43%;
 	}
 	.round.active-third {
 		left: 50%;
-		top: 44.8%;
+		top: 40.8%;
 	}
 	.round.active-fourth {
-		top: 54%;
+		top: 53%;
 	}
 
 	.round.active-fifth {
@@ -680,22 +684,22 @@
 
 	.round.active-html {
 		left: 49%;
-		top: 20%;
+		top: 15%;
 	}
 
 	.round.active-third-html {
 		left: 49%;
-		top: 43%;
+		top: 41%;
 	}
 
 	.round.active-fourth-html {
 		left: 44%;
-		top: 57%;
+		top: 55%;
 	}
 
 	.round.active-fifth-html {
 		left: 49%;
-		top: 71%;
+		top: 70%;
 	}
 
 	.round.active-sixth-html {
@@ -705,12 +709,12 @@
 
 	.round.active-third-web {
 		left: 44%;
-		top: 44%;
+		top: 42%;
 	}
 
 	.round.active-fourth-web {
 		left: 50%;
-		top: 58%;
+		top: 56%;
 	}
 
 	.round.active-fifth-web {
@@ -722,10 +726,10 @@
 @media only screen and (max-width: 348px) {
 	.round.active-third {
 		left: 50%;
-		top: 45.8%;
+		top: 41.8%;
 	}
 	.round.active-fourth {
-		top: 54.5%;
+		top: 54%;
 	}
 	.round.active-fifth {
 		top: 68%;
@@ -733,41 +737,33 @@
 	}
 	.round.active-html {
 		left: 49%;
-		top: 21%;
+		top: 15%;
 	}
 
 	.round.active-third-html {
 		left: 49%;
-		top: 44%;
+		top: 42%;
 	}
 
 	.round.active-fourth-html {
 		left: 44%;
-		top: 58%;
+		top: 56%;
 	}
 
 	.round.active-third-web {
 		left: 43%;
-		top: 45.5%;
+		top: 42.5%;
 	}
 
 	.round.active-fourth-web {
 		left: 50%;
-		top: 59%;
+		top: 57%;
 	}
 
 
 	.round.active-sixth-web {
 		left: 35.7%;
 		top: 81%;
-	}
-
-	.point h3 {
-		margin: 5px 0;
-	}
-
-	.critique-container_block {
-		margin-top: 15px;
 	}
 
 }
